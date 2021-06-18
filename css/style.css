@@ -1,4 +1,167 @@
-.aaa {
-    letter-spacing: -0.1em;
-    color: gray;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
 }
+
+header {
+    display:flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  
+}
+
+main {
+    display: grid;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hr { 
+height: 15px;
+border: solid 0px white;
+
+background-image: linear-gradient(45deg, #000000 7.14%, #ffffff 7.14%, #ffffff 50%, #000000 50%, #000000 57.14%, #ffffff 57.14%, #ffffff 100%);
+background-size: 9.90px 9.90px;
+    
+}
+.fdiv {
+    
+}
+
+.sdiv {
+position: absolute;
+left: 55px;    
+    
+}
+
+.qwe {
+    margin-left: 10px;
+}
+.tdiv {
+    position:absolute;
+    right: 0%;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.fsec {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.print {
+    position: absolute;
+    right: 0%;
+    margin-top: 50px;
+    margin-right: 5px;
+    
+}
+.post {
+    margin-top: 5px;
+    font-size: 10px;
+  
+}
+.ssec {
+    
+    margin-bottom: 30px;
+}
+
+.lor {
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-indent: 50px;
+}
+
+.tsec {
+    position: relative;
+    text-align: center;
+}
+
+.form {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+ 
+   
+}
+.form {
+    font-size: 25px;
+
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.fsec {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.move {
+    position: relative;
+    bottom: 21px;
+}
+.lsec {
+    display: grid;
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+}
+/* button {
+    border: yellow;
+    color:white;
+    background-color: tomato;
+    border: 
+} */
+button {
+    background-color: #fa3939; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .copy {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: rgb(178, 182, 185);
+  }
+ 
